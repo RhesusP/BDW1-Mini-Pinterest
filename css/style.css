@@ -1,0 +1,206 @@
+/* ##################### FONTS ##################### */
+/* ---- Montserrat ----*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf')  format('truetype');
+  }
+
+@font-face {
+    font-family: 'Montserrat_Light';
+    src: url('fonts/Montserrat/Montserrat-Light.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat_Italic';
+    src: url('fonts/Montserrat/Montserrat-Italic.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat_Bold';
+    src: url('fonts/Montserrat/Montserrat-Bold.ttf')  format('truetype');
+  }
+
+
+  /* ---- Roboto ----*/
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Roboto_Light';
+    src: url('fonts/Roboto/Roboto-Light.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Roboto_Italic';
+    src: url('fonts/Roboto/Roboto-Italic.ttf')  format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Roboto_Bold';
+    src: url('fonts/Roboto/Roboto-Bold.ttf')  format('truetype');
+  }
+
+/* ##################### HEADER ##################### */
+header > h1{
+  font-family: Montserrat;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+header > form{
+  text-align: right;
+  font-style: italic;
+}
+
+header > p{
+  font-family: Montserrat_Italic;
+  text-align: right;
+}
+
+  /*check*/
+html{
+    color: #5D4037;
+    font-family: Roboto;
+    background-color: #ffedc2;
+}
+
+/*check*/
+img{
+  width: 480px;
+  height: 270px;
+}
+
+#imageDesc{
+  margin-bottom:2%;
+}
+
+/*conteneur images*/
+#photos{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+/* ##################### TABLEAUX ##################### */
+table{
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+td{
+  border-width: 1px;
+  border-style: solid;
+}
+
+#imageDesc > table{
+  margin-bottom: 20%;
+}
+
+/* ---- Coloration 1ere colonne tableau description.php ----*/
+#description > table > tbody > tr > td:first-child{
+    font-family: Roboto_Bold;
+    background-color: #A4C2F4;
+}
+
+#stats > table > tbody > tr:first-child{
+    font-family: Roboto_Bold;
+    background-color: #A4C2F4;
+}
+
+#stats > table{
+  height: 14em;
+  width: 23em;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+#description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ##################### LISTE DE NAVIGATION ##################### */
+#liste_nav{
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    /*position: fixed;*/
+
+    width: 100%; 
+    list-style: none; 
+
+    text-align: center; 
+    color: #5D4037;
+    background-color: #ffde8f;
+
+    line-height: 40px;
+    margin:0;
+    padding:0;
+}
+
+#liste_nav li{
+    font-family: Montserrat_Light;
+    text-decoration:  none;
+    display: block; 
+    color: #5D4037;
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+#liste_nav a{
+    text-decoration:  none;
+    color: #5D4037;
+    font-size: 1.4em;
+}
+
+#liste_nav a:hover {
+    border-bottom: 2px solid #795548; 
+}
+
+
+
+#stats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+}
+
+
+/*  exclusif a index.php */
+.titre{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.formulaireCentre > form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.formulaireCentre > form > label{
+  margin-bottom: 2%;
+}
+
+#resizeButton{
+  width: 100%;
+}
+
+h2{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
