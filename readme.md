@@ -1,7 +1,7 @@
 <div align="center">
 
 # Mini Pinterest 
-#### Base de données et Programmation web
+#### Base de données et Programmation web (2020)
 </div>
 
 ## Sujet
