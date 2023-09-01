@@ -6,7 +6,7 @@
 
 ## Sujet
 
-Projet réalisé dans le cadre de l'UE **Base de données et Programmation web** ([INF2028L](http://offre-de-formations.univ-lyon1.fr/ue-17687/base-de-donnees-et-programmation-web.html)) à l'Université Claude Bernard Lyon 1.  
+Projet réalisé dans le cadre de l'UE Base de données et Programmation web ([INF2028L](http://offre-de-formations.univ-lyon1.fr/ue-17687/base-de-donnees-et-programmation-web.html)) à l'Université Claude Bernard Lyon 1.  
 L'objectif était de réaliser un site similaire à Pinterest, en PHP.
 
 
